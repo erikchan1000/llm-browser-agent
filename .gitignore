@@ -10,6 +10,12 @@
 !.yarn/releases
 !.yarn/versions
 
+# all node
+node_modules
+
+# build
+dist
+
 # testing
 /coverage
 

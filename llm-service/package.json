@@ -1,0 +1,22 @@
+{
+  "name": "llm-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn tsc && rollup -c",
+    "dev": "yarn tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Erik Chan",
+  "license": "ISC",
+  "description": "LLM agent with access to puppeteer browser",
+  "dependencies": {
+    "puppeteer": "^23.11.1"
+  },
+  "devDependencies": {
+    "rollup": "^4.30.1",
+    "typescript": "^5.7.3"
+  }
+}
